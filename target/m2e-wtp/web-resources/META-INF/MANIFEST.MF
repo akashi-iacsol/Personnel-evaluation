@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Built-By: yuusuke_akashi
+Build-Jdk: 11.0.9
+Created-By: Maven Integration for Eclipse
+

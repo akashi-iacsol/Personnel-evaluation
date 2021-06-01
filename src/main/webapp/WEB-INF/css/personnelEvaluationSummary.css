@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+.content {
+	border: 1px black solid;
+	padding: 0 30px;
+}
+
+td {
+	border: 1px black solid;
+}
+
+.buttonBox {
+	border: 3px solid #000;
+	border-spacing: 12px;
+	border-radius: 10px;
+	box-shadow: 3px 1px 5px #A0A0A0, 3px 1px 5px #A0A0A0 inset;
+	float: right;
+	margin: 15px 0 0;
+}
+
+.selectBox {
+	min-width: 300px;
+}
+
+.right {
+	float: right;
+}
+
+.summaryData {
+	background: white;
+}
+
+.input {
+	clear: right;
+	height: 60vh;
+	white-space: nowrap;
+	overflow: scroll;
+}
+
+.collapse {
+	border-collapse: collapse;
+}
+
+.table {
+	border-collapse: collapse;
+	border: 1px black solid;
+	margin: 0 auto;
+	font-size: 80%;
+	border: 1px black solid;
+	background: white;
+}
+
+.cols0,.cols1,.cols2 {
+	position: sticky;
+	background: white;
+}
+
+.cols0 {
+	width: 80px;
+	min-width: 80px;
+}
+
+.cols1 {
+	left: 0em;
+}
+
+.cols2 {
+	left: 6.5em;
+}
+
+.rows1,.rows2 {
+	height: 10px;
+	min-height: 10px;
+	z-index: 2;
+	position: sticky;
+	background: white;
+}
+
+.rows1 {
+	top: 0em;
+}
+
+.rows2 {
+	top: 1.8em;
+}
+
+.selectLastRank {
+	width: 3em;
+	text-align: right;
+}
+
+.selectAppraisalPosition {
+	width: 6em;
+	text-align: center;
+}
+
+.rankBox {
+	width: 3em;
+	text-align: right;
+}
+
+.radioButton {
+	display: block;
+	font-size: 0.8em;
+	-webkit-transform:scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform:scale(0.8);
+	-o-transform:scale(0.8);
+	transform:scale(0.8);
+	font-weight: bold;
+}
+
+.bottom {
+	position: sticky;
+	bottom: 0px;
+	z-index: 2;
+	background: white;
+}
+
+.noBorder {
+	border: 0;
+}
+
+.z3 {
+	z-index: 3;
+}
+
+.iframe {
+	width: 0px;
+	height: 0px;
+	border: 0px;
+}
